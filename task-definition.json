@@ -14,7 +14,7 @@
             "awslogs-stream-prefix": "ecs"
           }
         },
-        "entryPoint": null,
+        "entryPoint": ["uvicorn app.main:app --reload"],
         "portMappings": [],
         "command": null,
         "linuxParameters": null,
