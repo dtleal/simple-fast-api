@@ -31,7 +31,7 @@
       "memoryReservation": null,
       "volumesFrom": [],
       "stopTimeout": null,
-      "image": "111950323686.dkr.ecr.us-east-2.amazonaws.com/fastapi-test",
+      "image": "111950323686.dkr.ecr.us-east-2.amazonaws.com/fastapi-test:3fdcc780bab3452fd53005f152c10939ef906f4c",
       "startTimeout": null,
       "firelensConfiguration": null,
       "dependsOn": null,
@@ -58,7 +58,7 @@
     "EC2",
     "FARGATE"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:us-east-2:111950323686:task-definition/fastapi-test-task-def:2",
+  "taskDefinitionArn": "arn:aws:ecs:us-east-2:111950323686:task-definition/fastapi-test-task-def:5",
   "family": "fastapi-test-task-def",
   "requiresAttributes": [
     {
@@ -120,7 +120,7 @@
     "cpuArchitecture": null
   },
   "cpu": "256",
-  "revision": 2,
+  "revision": 5,
   "status": "ACTIVE",
   "inferenceAccelerators": null,
   "proxyConfiguration": null,
