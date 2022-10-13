@@ -1,1 +1,1 @@
-# fastapi-test
+A minimal FastAPI example
